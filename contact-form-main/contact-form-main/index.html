@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en ng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <!--<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">-->
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!--Contact Us
+
+  First Name
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+  I consent to being contacted by the team
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon!
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+  <div class="title">
+  <form action="">
+  <h1>Contact Us</h1>
+<div class="container">
+  <div class="name">
+    <div class="firstname">
+      <h4>First Name*</h4>
+      <input type="text" placeholder="this field is required" class="input-box"required>
+    </div>
+    <div class="lastname">
+      <h4>Last Name*</h4>
+      <input type="text" placeholder="this field is required"class="input-box" required>
+    </div>
+  </div>
+      <h4>Email Address*</h4>
+    <input type="text" placeholder="Please enter a valid email address" class="input-box" required>
+  <h4>Query Type*</h4>
+  <div class="form">
+    <div class="radio-container">
+      <input type="radio" id="General Enquiry" name="Query Type" value="General Enquiry">
+        <label for="General Enquiry">General Enquiry</label>
+    </div>
+    <div class="radio-container">
+      <input type="radio" id="Support Request" name="Query Type" value="Support Request">
+        <label for="Support Request">Support Request</label>
+    </div>
+  </div>
+  <div >
+    <h4>Message*</h4>
+    <textarea placeholder="this field is required"class="message-container" rows="5" required></textarea>
+  </div>
+  <label><input type="checkbox" class="check">I consent to being contacted by the team*</label>
+</div>
+</form>
+<button type="submit" class="butn">submit</button>
+</div>
+</body>
+</html>

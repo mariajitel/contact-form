@@ -1,0 +1,106 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Karla", sans-serif;
+    background-color:#d9f0f3;
+    color:hsl(187, 24%, 22%);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+
+}
+h1{
+    font-weight: 700;
+
+}
+.title{
+    border:1px solid black;
+    padding:25px;
+    background-color:white;
+    border-radius:20px;
+    width:450px;
+    margin: 25px auto;
+}
+.container{
+    margin:20px auto;
+}
+.input-box{
+    display: "inline-block";
+    border: 1px solid hsl(186, 15%, 59%);
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.butn{
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color:hsl(169, 82%, 27%);
+    margin:10px;
+    border-radius: 10px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.firstname,.lastname,h4{
+    margin-bottom: 15px;
+}
+.check{
+    margin:20px;
+    color:hsl(169, 82%, 27%);
+}
+.input-box:hover{
+    border:1px solid hsl(147, 47%, 41%);
+}
+.radio-container{
+    border: 1px solid hsl(186, 15%, 59%);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom:25px;
+    display:flex;
+    gap:10px;
+}
+.radio-container:hover{
+    background-color:hsl(148, 38%, 91%);
+}
+.message-container{
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px
+}
+ input[type="radio"]{
+    background-color:hsl(169, 82%, 27%) ;
+    color:hsl(169, 82%, 27%) ;
+}
+textarea{
+    font-family: "Karla", sans-serif;
+}
+@media only screen and (min-width:720px){
+    .title{
+        width:720px;
+    }
+    .name{
+        display: flex;
+        gap:10px;
+    }
+    .firstname{
+        width:100%;
+    }
+    .lastname{
+        width:100%;
+    }
+    .form{
+        display: flex;
+        gap:10px;
+    }
+    .radio-container{
+        width:100%;
+        
+    }
+}
+    
